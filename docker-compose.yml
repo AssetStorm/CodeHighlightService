@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  highlighter:
+    build: .
+    restart: unless-stopped
+    environment:
+      PORT: 80
+    ports:
+      - "3000:80"

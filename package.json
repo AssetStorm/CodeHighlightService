@@ -1,0 +1,28 @@
+{
+  "name": "codehighlightservice",
+  "version": "1.0.0",
+  "description": "Code highlighter using highlight.js",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "highlight.js": "^9.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AssetStorm/CodeHighlightService.git"
+  },
+  "keywords": [
+    "syntaxhighlighting"
+  ],
+  "author": "Pina Merkert",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/AssetStorm/CodeHighlightService/issues"
+  },
+  "homepage": "https://github.com/AssetStorm/CodeHighlightService#readme"
+}
