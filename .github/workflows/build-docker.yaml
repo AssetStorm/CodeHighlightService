@@ -8,7 +8,7 @@ jobs:
     - name: Publish to Docker Registry
       uses: elgohr/Publish-Docker-Github-Action@master
       with:
-        name: assetstorm/assetstorm2template
+        name: assetstorm/codehighlightservice
         username: ${{ secrets.DOCKER_USER }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         workdir: .
