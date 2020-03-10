@@ -11,4 +11,4 @@ jobs:
         name: assetstorm/codehighlightservice
         username: ${{ secrets.DOCKER_USER }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        workdir: .
+        workdir: src
